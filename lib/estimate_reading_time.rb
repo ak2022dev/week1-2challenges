@@ -1,5 +1,5 @@
 def estimate_reading_time(text)
-  if text = ""
-    return 0
-  end
+  text.split(" ").length.to_f / 200
 end
+
+

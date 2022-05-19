@@ -25,6 +25,8 @@ estimate_reading_time("") => 0 minutes
 estimate_reading_time(TWO_HUNDRED_WORDS) => 1 minutes
 estimate_reading_time(FOUR_HUNDRED_WORDS) => 2 minutes
 estimate_reading_time(FOUR_THOUSAND_WORDS) => 20 minutes
+estimate_reading_time(FIFTY) => 1 minute
+estimate_reading_time(THREE_HUNDRED_AND_NINETY_NINE) => 2 minutes 
 estimate_reading_time(nil) throws an error
 
 4. Implement the Behaviour
