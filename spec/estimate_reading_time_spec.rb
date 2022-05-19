@@ -25,4 +25,8 @@ RSpec.describe "estimate_reading_time method" do
     expect(result).to eq 1 
   end
 
+  it "returns 2 minutes if word count should round up to 2 mins" do
+    result = estimate_reading_time("word " * 399)
+    expect(result).to eq 2
+  end
 end
