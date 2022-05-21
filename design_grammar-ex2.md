@@ -22,26 +22,26 @@ is_sentence: boolean
 
 Make a list of examples of what the method will take and return.
 
-check_grammar("") => false
-check_grammar("i") => false
-check_grammar("I") => false
-check_grammar(".") => false
-check_grammar("?") => false
-check_grammar("!") => false
-check_grammar("I.") => true
-check_grammar("I?") => true
-check_grammar("I!") => true
-check_grammar("I,") => false
-check_grammar("i.") => false
-check_grammar("i?") => false
-check_grammer("i!") => false
-check_grammar("I am a sentence.") => true
-check_grammar("Am I a sentence?") => true
-check_grammar("I surely am a sentence!") => true
-check_grammar("I wish I were a sentence,") => false
-check_grammar("So do I") => false
-check_grammar("so do I.") => false
-check_grammar(nil) throws error
+check_grammar?("") => false
+check_grammar?("i") => false
+check_grammar?("I") => false
+check_grammar?(".") => false
+check_grammar?("?") => false
+check_grammar?("!") => false
+check_grammar?("I.") => true
+check_grammar?("I?") => true
+check_grammar?("I!") => true
+check_grammar?("I,") => false
+check_grammar?("i.") => false
+check_grammar?("i?") => false
+check_grammer?("i!") => false
+check_grammar?("I am a sentence.") => true
+check_grammar?("Am I a sentence?") => true
+check_grammar?("I surely am a sentence!") => true
+check_grammar?("I wish I were a sentence,") => false
+check_grammar?("So do I") => false
+check_grammar?("so do I.") => false
+check_grammar?(nil) throws error
 
 
 4. Implement the Behaviour
