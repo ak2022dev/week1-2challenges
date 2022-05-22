@@ -67,7 +67,7 @@ todos.remove("First task") => fail "Can't remove anything from empty todo list"
 # 3
 todos = TodoManager.new
 todos.add("First task")
-todos.remove("Second task") => fail "Can't remove something if it's not in list"
+todos.remove("Second task") => fail "Can't remove something if it's not in list!"
 
 # 4
 todos = TodoManager.new
